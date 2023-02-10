@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.body{
+    background-color: rgb(210, 162, 255);
+}
+.text-titulo{
+    font-size: 5em;
+    text-align: center;
+    padding: 15px;
+}
+
+.Contenedor-board{
+    margin: auto;
+    width: 700px;
+    max-width: 100%;
+    display: flex;
+    /* flex.wrap: utilizado para que los elementos permanescan en una misma line o este en varias */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton{
+    width: 200px;
+    height: 200px;
+    max-width: 33%;
+    font-size: 10em;
+}
+/* .morado{
+    background-color: rgb(220, 184, 254);
+} */
+
